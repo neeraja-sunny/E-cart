@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 Link
 const Footer = () => {
     return (
-        <div style={{ height: '280px', marginTop: '100px' }} className='mt-5 w-full bg-violet-600 text-white p-4'>
+        <div style={{ height: '350px', marginTop: '100px' }} className='mt-5 w-full bg-violet-600 text-white p-4'>
             <div className='flex justify-between p-4'>
                 <div style={{ width: '400px' }} className='intro' >
                     <h5 className='text-xl font-bold'><i className="fa-solid fa-truck-fast me-2"></i> E-Cart</h5>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </div> 
                 
             </div>
-            <p  className='text-center mt-1 text-white'>Copyright © May 2024 Batch , E-Cart , Built with React.  </p>
+            <p  className='text-center mt-5 text-white'>Copyright © May 2024 Batch , E-Cart , Built with React.  </p>
         </div>
     )
 }
